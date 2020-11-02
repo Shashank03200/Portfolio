@@ -1,0 +1,436 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #6a2c70;
+  color: white;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: auto 40px;
+}
+.dom > div {
+  text-align: center;
+}
+
+#introduction {
+  padding-top: 10px;
+  text-align: center;
+}
+.profile-image {
+  margin: 0;
+  transform: scale(0.7, 0.7);
+  text-align: center;
+  border: 10px white solid;
+  border-radius: 50%;
+}
+.navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 222;
+}
+
+.first-level {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+}
+
+.second-level {
+  font-family: "Noto Sans JP";
+  font-size: 32px;
+}
+
+.third-level {
+  font-family: "Fira Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.fourth-level {
+  font-size: 20px;
+}
+
+#skill-section {
+  background-color: #0d7377;
+}
+
+.sec-spacing {
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.sec-heading {
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 160px;
+  font-size: 80px;
+  padding: 5px 20px;
+  border: darkgray;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-radius: 6px;
+}
+
+.programming-logos {
+  display: flex;
+  align-content: space-around;
+}
+.text-skill {
+  color: black;
+  margin: 5px 10px;
+  padding-left: 10px;
+  width: 700px;
+}
+.skill-card {
+  margin: 70px auto;
+  padding: 40px;
+  height: auto;
+  background: #fff;
+  box-shadow: 10px 10px 8px black;
+  border-radius: 10px;
+}
+
+.logo-image {
+  margin: 5px auto;
+  border: solid rgb(161, 27, 27) 2px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 4px;
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+}
+
+#projects-section {
+  background-color: #6a2c70;
+}
+.w-100 {
+  object-fit: cover;
+  height: 600px;
+  width: 80% !important;
+  margin: auto;
+}
+
+
+#contact-me {
+  background-color: #0d7377;
+}
+
+.mail-box {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px pink solid;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  width: 80%;
+  color: #ee7752;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 10px 5px 20px black;
+  background-color: #fff;
+}
+.prev-btn,
+.next-btn{
+  font-size: 5rem;
+  color: #ffa62b;
+}
+#quote-sec {
+  text-align: center;
+  background: chocolate;
+}
+
+.quote-box {
+  text-align: center;
+  font-style: italic;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  position: relative;
+  top: -0.4rem;
+  margin: auto 10px;
+}
+
+#social-link-sec{
+  background: #6a2c70;
+  text-align: center;
+  margin:2rem auto;
+  padding: 30px;
+}
+
+.social-icons-div{
+  margin: 10px auto;
+  background:#fff;
+  border-radius: 20px;
+  width: max-content;
+  padding: 1rem;
+
+}
+.social-icon{
+  font-size: 4rem;
+  margin: 1rem 4rem;
+  cursor: pointer;
+}
+
+.fa-github-square{
+  color: #212529;
+}
+.fa-facebook-official{
+  color: #385898;
+}
+.fa-linkedin-square{
+  color: #0073b1;
+}
+.fa-instagram{
+  color:magenta
+}
+
+
+
+.social-icon:hover{
+  font-size: 4.5rem;
+  margin: auto 3.8rem;
+}
+
+
+.author-div {
+  float: right;
+  margin: 20px;
+  margin-right: 150px;
+}
+
+footer {
+  text-align: center;
+  background-color: #212529;
+  padding: 2vh;
+  margin-bottom: 0;
+}
+
+#introduction,#quote-sec {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .first-level {
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+  }
+
+  .second-level {
+    font-family: "Noto Sans JP";
+    font-size: 18px;
+  }
+
+  .third-level {
+    font-size: 14px;
+  }
+
+  .fourth-level {
+    font-size: 12px;
+  }
+
+  .sec-heading {
+    font-size: 30px;
+  }
+
+  .mail-box {
+    margin: 5px auto;
+  }
+  nav .nav-link {
+    font-size: 16px;
+  }
+
+  nav .navbar-brand {
+    font-size: 20px;
+  }
+
+
+  .w-100 {
+    height: 400px !important;
+    width: 80%;
+  }
+
+  
+  carousel-inner{
+    overflow: hidden;
+  }
+
+  .carousel-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .profile-image {
+    height: 260px;
+    width: 260px;
+  }
+
+  .text-skill {
+    text-align: center;
+  }
+
+  .logo-image {
+    height: 70px;
+    width: 70px;
+    margin: 15px auto;
+  }
+
+  .social-icon{
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+  }
+  .social-icon:hover{
+    font-size: 2.3rem;
+    margin: auto 1rem;
+  }
+
+  .mail-box {
+    width: 90%;
+  }
+  .prev-btn,
+.next-btn{
+  font-size: 2.3rem;
+  color: #ffa62b;
+}
+  
+}
+
+
+
+@media (max-width: 991px) and (min-width: 578px) {
+  .first-level {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+  }
+
+  .second-level {
+    font-family: "Noto Sans JP";
+    font-size: 22px;
+  }
+
+  .third-level {
+    font-size: 18px;
+  }
+
+  .fourth-level {
+    font-size: 12px;
+  }
+
+  .sec-heading {
+    font-size: 36px;
+  }
+
+  
+  nav .nav-link {
+    font-size: 16px;
+  }
+
+  nav .navbar-brand {
+    font-size: 20px;
+  }
+
+  .w-100 {
+    height: 400px !important;
+    width: 80%;
+  }
+
+
+  .carousel-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .profile-image {
+    height: 280px;
+    width: 280px;
+  }
+
+  .text-skill {
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+ 
+}
+
+  .logo-image {
+    margin: 10px auto;
+    border: 2px solid rgb(161, 27, 27);
+    border-radius: 10px;
+    width: 85px;
+    height: 85px;
+  }
+
+  .programming-logos {
+    
+    display: flex;
+    align-content: space-between;
+  }
+  .mail-box {
+    width: 90%;
+  }
+  .logo-image{
+    font-size: 3rem;
+  }
+  .social-icon{
+    font-size: 3rem;
+    margin: 0.8rem 2rem;
+  }
+  .social-icon:hover{
+    font-size: 3.5rem;
+    margin: auto 2rem;
+  }
+  .prev-btn,
+.next-btn{
+  font-size: 3rem;
+  color: #ffa62b;
+}
+  
+}
+
+#sendBtn,
+#clearBtn {
+  width: 100%;
+}
+
+.social-icons-div a:hover{
+  font-style: none;
+}
+
+

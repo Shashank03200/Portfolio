@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio : Shashank Mishra</title>
+
+    <!-- Bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/7bcfb27486.js"></script>
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!--jQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!--Animation CDN-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./css/styles.css"
+  </head>
+
+
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+      <a class="navbar-brand" href="#">Shashank Mishra</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        style="border:none; outline:none;"
+      >
+           
+        <span class="navbar-toggler-icon"></span>
+         
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Introduction Section-->
+    <a name="intro"></a>
+    <section id="introduction">
+      <div class="dom">
+        <div class="second-level">Hey There</div>
+        <div>
+          <img class="profile-image" src="./images/profile-image.png " />
+        </div>
+        <div data-aos="zoom-in-up" class="first-level">I am Shashank Mishra</div>
+        <div data-aos="zoom-in-up" data-aos-delay="150" class="third-level">A web development enthusiast</div>
+      </div>
+
+      <button data-aos="zoom-in" data-aos-delay="500" class = "btn btn-success btn-lg third-level" style="margin: 5vh auto;">Download CV</button>
+    </section>
+
+    
+
+    <!--Skills-->
+    <a name="skills"></a>
+    <section id="skill-section" class="sec-spacing">
+      
+      <div class = "second-level sec-heading">My Skills</div>
+      <div class="container">
+        <div data-aos="fade-up" class="skill-card row">
+          
+            <div class="third-level text-skill col">C++, Python, C
+            <br>⭐⭐⭐⭐</div>
+            <div class = "programming-logos col">
+              <img src="./images/C Logo.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/C++ logo.png" data-aos = "zoom-in-left" class="logo-image" style="padding: 10px;">
+              <img src="./images/python logo.png"  data-aos = "zoom-in-left" class="logo-image">
+            </div>
+        </div>
+
+        <div data-aos="fade-up" class="skill-card row" >
+          
+            <div class="third-level text-skill col">Frontend
+            <br>⭐⭐⭐</div>
+            <div class = "programming-logos col">
+              <img src="./images/html.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/css.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/javascript logo.png" data-aos = "zoom-in-left" class="logo-image">
+            
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="skill-card row" >
+          
+            <div class="third-level text-skill col">MERN Stack
+            <br>⭐⭐⭐</div>
+            <div class = "programming-logos col">
+              <img src="./images/mongoose logo.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/Express logo.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/React.png" data-aos = "zoom-in-left" class="logo-image">
+            </div>
+          
+        </div>
+
+        <div data-aos="fade-up" class="skill-card row" >
+          
+            <div class="third-level text-skill col">Other Skills: Git, Bootstrap 4, DSA
+            <br>⭐⭐⭐
+            </div>
+            <div class = "programming-logos col">
+              <img src="./images/Git.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/Bootstrap logo.png" data-aos = "zoom-in-left" class="logo-image">
+              <img src="./images/DSA.jpg" data-aos = "zoom-in-left" class="logo-image">
+            </div>
+          
+        </div>
+      </div>
+        
+    </section>
+
+
+    <!--Project Section-->
+    <a name="projects"></a>
+    <section id = "projects-section" class="sec-spacing">
+
+      <div class="sec-heading">My Projects</div>
+      
+      <div data-aos = "flip-right" class= "container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+  
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/todolist.png" class="carousel-image d-block w-100 " alt="...">
+              <div class="carousel-caption">
+                <p class="third-level">To Do list Using React</p>
+                <p class="fourth-level">A modern responsive UI web app </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/snake.png"  class="carousel-image d-block w-100 " alt="...">
+              <div class="carousel-caption">
+                <p class="third-level">Classic Snake Game</p>
+                <p class="fourth-level">Made using Pygame, Python</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/timer.jpg" class="carousel-image d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <p class="third-level">Timer Application</p>
+                <p class="fourth-level">Made using Tkinter, Python.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/blogging.jpg" class="carousel-image d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <p class="third-level">Blogging Website</p>
+                <p class="fourth-level">Using Node, Express and Mongoose</p>
+              </div>
+            </div>
+          </div>
+          
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <i class="fa fa-chevron-circle-left prev-btn mr-5"  aria-hidden="true"></i>
+          </a>
+  
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <i class="fa fa-chevron-circle-right next-btn ml-5"  aria-hidden="true"></i>
+          </a>
+  
+        </div>
+      </div>
+      
+    </section>
+
+    <!--Contact Section-->
+    <a name="contact"></a>
+    <section id="contact-me" class="sec-spacing">
+      <div data-aos = "slide-up" class="sec-heading">Contact Me</div>
+      <form>
+        <div class="container">
+          <div class="row">
+            <div  data-aos = "slide-up" class="form-group mail-box ">
+              <label for="name-box" class="third-level">Enter Name</label>
+              <input type="text" class="form-control mb-3" name="name-box" id="name-box" placeholder="Full Name" class="third-level">
+              <label for="email-box" class="third-level">Enter Your Email</label>
+              <input type="email" class="form-control mb-3" name="email-box" id="email-box" placeholder="Email address" class="third-level">
+              <label for="msg-box" class="third-level">Your Message</label>
+              <textarea class="form-control mb-3" rows="5" cols="10" wrap="soft" class="third-level"></textarea>
+              <div class="row">
+                <div class="col-6">
+                  <button class="btn btn-primary mr-5 mt-3 third-level" id="sendBtn">Send Details</button>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-info mr-5 mt-3 third-level" id="clearBtn">Clear</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    </form>
+    </section>
+
+    <!--Social Media Links-->
+    <section id = "social-link-sec">
+      
+        <div class="sec-heading sec-spacing">Find me on</div><br>
+        
+          <div class="social-icons-div row">
+            <a href = "https://github.com/shashank03200" target="_blank">
+              <i data-aos="zoom-out-up" class="fa fa-github-square social-icon" aria-hidden="true"></i>
+            </a>
+            <a href = "https://www.facebook.com/profile.php?id=100035680878054" target="_blank">
+              <i data-aos="zoom-out-up" data-aos-delay="200" class="fa fa-facebook-official social-icon" aria-hidden="true"></i>
+            </a>
+            <a href = "https://www.linkedin.com/in/shashank03210/" target="_blank">
+              <i data-aos="zoom-out-up"  data-aos-delay="400" class="fa fa-linkedin-square social-icon" aria-hidden="true"></i>
+            </a>
+            <a href = "https://www.instagram.com/shashank0320/" target="_blank">
+              <i data-aos="zoom-out-up"  data-aos-delay="600" class="fa fa-instagram social-icon"  aria-hidden="true"></i>
+            </a>
+        
+        </div>
+        
+
+    </section>
+
+    <!--Quote Section-->
+    <section id = "quote-sec" class="sec-spacing">
+      
+      <span class="second-level quote-box">
+        <i  class="fa fa-quote-left" style="font-size: 3vw;" aria-hidden="true"></i>
+        Success, victory and happiness are all found in the forward motion<i class="fa fa-quote-right" aria-hidden="true" style="font-size: 3vw;"></i></div><br>
+        <span class="third-level author-div">-Isedu Ikeda</div>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer class="fourth-level">
+      All rights reserved &COPY; 2020
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
