@@ -49,7 +49,7 @@ body {
 }
 
 .fourth-level {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
@@ -142,12 +142,20 @@ textarea {
   left: auto;
   right: auto;
   width: 80%;
-  color: #ee7752;
   margin: 40px auto;
   border-radius: 5px;
   box-shadow: 10px 5px 20px black;
   background-color: #fff;
 }
+
+.carousel-caption > .third-level{
+  color: black;
+}
+
+.carousel-caption > .fourth-level{
+  color: rgb(85, 88, 82);
+}
+
 .prev-btn,
 .next-btn{
   font-size: 5rem;
@@ -173,7 +181,6 @@ textarea {
 #social-link-sec{
   background: #6a2c70;
   text-align: center;
-  margin:2rem auto;
   padding: 30px;
 }
 
@@ -222,7 +229,7 @@ footer {
   text-align: center;
   background-color: #212529;
   padding: 2vh;
-  margin-bottom: 0;
+  
 }
 
 #introduction,#quote-sec {
@@ -289,9 +296,11 @@ footer {
   }
 
   .carousel-image {
-    object-fit: cover;
+    
+    object-fit: fill;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
   }
 
   .profile-image {
